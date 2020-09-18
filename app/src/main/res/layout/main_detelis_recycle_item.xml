@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/yinying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp"
+            android:text="内容犯得上打算大苏打大撒发射点发射点犯得上犯得上啊实打实大苏萨达萨达是啊实打实大苏打大苏打实打实大苏打打啊实打实大苏打实打大撒大撒大苏打实。"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:textSize="9sp"
+        android:textColor="#fff"
+        android:background="@drawable/welcome_rela_btn_bg1"
+        android:id="@+id/item_btn_num"
+        android:text="第一个"
+        android:layout_width="40dp"
+        android:layout_height="17dp"/>
+
+</RelativeLayout>
